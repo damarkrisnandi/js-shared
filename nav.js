@@ -1,4 +1,6 @@
-const nav = document.getElementById("nav1");
+const nav = document.getElementById(
+  sessionStorage.getItem("NAV_TARGET") || "nav",
+);
 
 if (nav) {
   nav.outerHTML = `
