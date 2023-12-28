@@ -19,7 +19,7 @@ if (nav) {
           Home</a
         >
         <a
-          href="https://github.com/damarkrisnandi/${sessionStorage.get(
+          href="https://github.com/damarkrisnandi/${sessionStorage.getItem(
             "REPO",
           )}" target="_blank"
           class="px-4 py-4 flex justify-start items-center text-fuchsia-600"
