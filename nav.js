@@ -19,7 +19,9 @@ if (nav) {
           Home</a
         >
         <a
-          href="https://github.com/damarkrisnandi/${process.env.REPO}" target="_blank"
+          href="https://github.com/damarkrisnandi/${sessionStorage.get(
+            "REPO",
+          )}" target="_blank"
           class="px-4 py-4 flex justify-start items-center text-fuchsia-600"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
